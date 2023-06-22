@@ -5,7 +5,7 @@ const generateRandomString = (length) => {
   for (let i = 0; i < length; i++) {
     console.log(characters.length);
     result += characters.charAt(Math.floor(Math.random() * characters.length));
-    // console.log(result);
+     console.log(result);
   }
   return result;
 };
